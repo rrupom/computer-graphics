@@ -72,7 +72,7 @@ const drawCircle = (cx, cy, r) => {
   }
 };
 
-const drawShaheedMina = () => {
+const drawShaheedMinar = () => {
   let width = canvas.width;
   let height = canvas.height;
   let maxW = 420;
@@ -128,8 +128,4 @@ const drawShaheedMina = () => {
   drawCircle(cx, cy, 25);
 };
 
-const increment = (baseX, span) => {
-  return baseX + span;
-};
-
-drawShaheedMina();
+drawShaheedMinar();
